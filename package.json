@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/nathanrusselldev/simpleWeather/issues"
   },
-  "homepage": "https://github.com/nathanrusselldev/simpleWeather#readme"
+  "homepage": "https://github.com/nathanrusselldev/simpleWeather#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
 }
