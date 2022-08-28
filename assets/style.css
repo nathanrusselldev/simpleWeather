@@ -7,3 +7,45 @@ h1 {
     font-size: 60px;
     color:aqua;
 }
+
+.carl {
+    position: relative;
+}
+
+.carlItem {
+    width: 150px;
+    height: 150px;
+    background: grey;
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: .9em;
+    color: #ffffff;
+    display: none;
+}
+
+.carlItem--selected {
+    display: block;
+}
+
+.carlNav {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.carlButton {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%; 
+    margin: 0 2.5px;
+    cursor: pointer;
+}
+.carlButton--selected{
+    background: rgba(255, 255, 255, 0.5);
+}
