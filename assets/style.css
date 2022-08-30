@@ -1,6 +1,7 @@
 * {
     margin: 0 auto;
-    background-color: black;
+    background: rgb(255,255,102);
+    background: linear-gradient(90deg, rgba(255,255,102,1) 0%, rgba(81,218,76,1) 4%, rgba(66,255,255,1) 9%, rgba(2,177,248,1) 25%, rgba(43,51,247,1) 92%, rgba(255,110,60,1) 100%);
 }
 
 h1 {
